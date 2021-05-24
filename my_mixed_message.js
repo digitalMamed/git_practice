@@ -1,3 +1,4 @@
+//List of motivational Quotes
 const motivationalQuotes = ['Change the world by being yourself.',
 'Every moment is a fresh beginning.',
 'Never regret anything that made you smile.',
@@ -5,6 +6,7 @@ const motivationalQuotes = ['Change the world by being yourself.',
 'Aspire to inspire before we expire.',
 'Everything you can imagine is real.']
 
+// Function that randomize quotes
 function randomizer(array) {
     let randomIndex = Math.floor(Math.random() * array.length);
     return array[randomIndex];
